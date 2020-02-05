@@ -1,0 +1,33 @@
+{
+  "planets": {
+    "mercury": {
+      "satellites": "none"
+    },
+    "venus": {
+      "satellites": "none"
+    },
+    "earth": {
+      "satellites": {
+        "total": 1,
+        "names" : {
+          "moon": {
+            "visible": true
+          }
+        }
+      }
+    },
+    "mars": {
+      "satellites": {
+        "total": 2,
+        "names" : {
+          "deimos": {
+            "visible": false
+          },
+          "phobos": {
+            "visible": false
+          }
+        }
+      }
+    }
+  }
+}
